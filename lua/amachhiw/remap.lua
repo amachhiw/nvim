@@ -14,8 +14,7 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
 -- Keep the searched term in the middle
 vim.keymap.set("n", "n", "nzzzv")
---vim.keymap.set("n", "N", "Nzzzv")
-vim.keymap.set("n", "p", "Nzzzv")
+vim.keymap.set("n", "N", "Nzzzv")
 
 vim.keymap.set("n", "<leader>vwm", function()
     require("vim-with-me").StartVimWithMe()
@@ -26,7 +25,7 @@ end)
 
 -- greatest remap ever
 -- This keeps the last last copied data into the buffer that can be pasted multiple times
-vim.keymap.set("x", "<leader>p", "\"_dP")
+-- vim.keymap.set("x", "<leader>p", "\"_dP")
 
 -- next greatest remap ever : asbjornHaland
 -- leader+p ap to yank a complete paragraph and paste it anywhere in the system but not only local to vim

@@ -13,6 +13,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- For changing the background color from the rose-pine
   use({
 	  'rose-pine/neovim',
 	  as = 'rose-pine',
@@ -49,5 +50,17 @@ return require('packer').startup(function(use)
 		  {'L3MON4D3/LuaSnip'},             -- Required
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
+  }
+  use('nvim-tree/nvim-web-devicons')
+  -- Adding support for status line
+  use {
+      'nvim-lualine/lualine.nvim',
+      -- requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+      requires = { 'kyazdani42/nvim-web-devicons' }
+  }
+  use {
+      'akinsho/bufferline.nvim',
+      tag = "v3.*",
+      requires = { 'nvim-tree/nvim-web-devicons' }
   }
 end)
