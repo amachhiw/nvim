@@ -5,7 +5,7 @@ Download NerdFonts and copy them in ~/.local/share/fonts/
  ```
 
  ```sh
- amachhiw:kop-ci$ ls -l  ~/.local/share/fonts/NerdFonts/
+amachhiw:kop-ci$ ls -l  ~/.local/share/fonts/NerdFonts/
 total 47652
 -rw-rw-r--. 1 amachhiw amachhiw 2420672 Mar  9 19:19 'Fira Code Bold Nerd Font Complete Mono.ttf'
 -rw-rw-r--. 1 amachhiw amachhiw 2496296 Mar  9 19:20 'Fira Code Bold Nerd Font Complete.ttf'
