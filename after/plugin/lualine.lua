@@ -24,7 +24,12 @@ require('lualine').setup {
   sections = {
     lualine_a = {'mode'},
     -- lualine_b = {'branch', 'diff', 'diagnostics'},
-    lualine_b = {'branch', 
+    lualine_b = {
+    {
+        -- https://github.com/nvim-lualine/lualine.nvim#:~:text=General%20component%20options
+        'branch',
+        icon = {'', color={fg='yellow'}}
+    },
     {
         'diff',
         colored = true, -- Displays a colored diff status if set to true

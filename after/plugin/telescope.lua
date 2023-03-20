@@ -6,3 +6,6 @@ vim.keymap.set('n', '<C-gf>', builtin.git_files, {})
 vim.keymap.set('n', '<leader>ps', function()
 	builtin.grep_string({ search = vim.fn.input("Grep > ") });
 end)
+vim.keymap.set('n', '<leader>lg', function()    
+    builtin.live_grep({ search = vim.fn.input("live_grep > ") });
+end)
