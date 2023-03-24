@@ -4,10 +4,10 @@ require('lualine').setup {
     -- theme = 'auto',
     -- theme = 'horizon',
     theme = 'powerline_dark',
-    -- component_separators = { left = '', right = ''},
-    -- section_separators = { left = '', right = ''},
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    -- component_separators = { left = '', right = ''},
+    -- section_separators = { left = '', right = ''},
     disabled_filetypes = {
       statusline = {},
       winbar = {},
@@ -126,3 +126,7 @@ require('lualine').setup {
   inactive_winbar = {},
   extensions = {}
 }
+
+
+-- Clone the NerdFonts from the below github
+-- https://github.com/ryanoasis/nerd-fonts.git
