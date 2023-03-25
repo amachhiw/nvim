@@ -33,3 +33,7 @@ vim.opt.updatetime = 50
 -- vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+-- Cursor Hightlight
+vim.opt.cursorline = true
+
