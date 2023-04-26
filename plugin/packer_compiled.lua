@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/home/amachhiw/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
-  ["highlight-current-n.nvim"] = {
-    loaded = true,
-    path = "/home/amachhiw/.local/share/nvim/site/pack/packer/start/highlight-current-n.nvim",
-    url = "https://github.com/rktjmp/highlight-current-n.nvim"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/amachhiw/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -158,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/amachhiw/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/amachhiw/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
